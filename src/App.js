@@ -11,7 +11,7 @@ const esercizio = [
   {question :'Un componente React può venire creato in tre modi: come funzione, classe o interfaccia.',answer : 'Falso'},
   {question :'Le props sono frammenti di informazione assegnati all’invocazione di un componente React, utili al fine di rendere il componente dinamico e più riutilizzabile.',answer : 'Vero'},
   {question :' Le props possono essere passate solamente da un componente genitore ad un componente figlio, non è possibile fare il contrario ',answer : 'Vero'},
-  {question :'Da dove possono venire recuperate le props all’interno di un componente React creato come classe?',answer : " Sono proprietà contenute in un oggetto accessibile attraverso i parametri della funzione"}
+  {question :'Da dove possono venire recuperate le props all’interno di un componente React creato come classe?',answer : " Possono essere recuperate all’interno dello oggetto ‘this’, dentro un sotto-oggetto chiamato ‘props’"}
 ]
 function App() {
   return (
